@@ -25,10 +25,10 @@ setup(
     ],
     packages=["helpers"],
     include_package_data=True,
-    install_requires=["pathlib"],
+    install_requires=["Pathlib"],
     #entry_points={
     #    "console_scripts": [
     #        "realpython=reader.__main__:main",
     #    ]
-    },
+    #},
 )
