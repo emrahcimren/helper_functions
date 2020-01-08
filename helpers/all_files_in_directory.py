@@ -1,7 +1,11 @@
 from pathlib import Path
-from pprint import pprint
 
 def searching_all_files_in_directory(directory):
+    '''
+    Function to pull files in a directory
+    :param directory: path to the directory
+    :return: list of files with whole path
+    '''
     dirpath = Path(directory)
     assert(dirpath.is_dir())
     file_list = []
